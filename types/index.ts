@@ -4,3 +4,10 @@ export interface WordChar{
 	lines: number,
 	spaces: number
 }
+
+export interface Bases{
+	binary: string,
+	octal: string,
+	decimal: string,
+	hexadecimal: string
+}

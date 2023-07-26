@@ -12,6 +12,17 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      keyframes: {
+        'jitter': {
+          '0%, 100%': {transform: 'translate(0px)'},
+          '25%': {transform: 'translate(8px)'},
+          '50%': {transform: 'translate(0px)'},
+          '75%': {transform: 'translate(8px)'},
+        }
+      },
+      animation: {
+        'invalid-input': 'jitter 0.5s'
+      }
     },
   },
   plugins: [],
